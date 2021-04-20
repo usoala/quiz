@@ -211,6 +211,7 @@ function prepareRankingArea() {
     quiz.removeChild(questionArea);
     quiz.removeChild(answerArea);
     quiz.removeChild(checkAnswers);
+    timer.innerHTML = "";
 
     rankingArea = document.createElement('div');
     pos1 = document.createElement('h1');
